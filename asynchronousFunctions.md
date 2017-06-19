@@ -2,7 +2,7 @@
 asynchronous programming keeps web applications responsive by allowing multiple tasks to be processed at the same time.
 
 <kbd>the Event Loop</kbd>
-![](eventloop.png)
+![](/images/eventloop.png)
 
 - The javascript runtime executes code in a single thread, meaning it can only run one statement at a time.
 - Code is usually placed on the call stack before being executed
@@ -19,7 +19,7 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 <br>
 <kbd>the event queue</kbd>
 
-![](eventQ.png)
+![](/images/eventQ.png)
 
 ## How asynchronous functions fit into the event loop?  :fork_and_knife:
 - when js runtime comes across an asynchronous function in the call stack, it does not process it immediately.
@@ -31,7 +31,7 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 - The runtime is single threaded, but there are other processes running in a browser, such as timers, input handlers and Network request APIs that run in parallel with the event loop, by putting new tasks on to the event queue.
 
 <kbd>async functions in the event loop</kbd>     
-![](asyncFunloop.png)
+![](/images/asyncFunloop.png)
 
 ## why are async functions important?  :bulb:
 - They are important because some tasks, such as network request are slow, and so it allows for slow tasks to be operated on a separate thread to stop a task from blocking the browser.
