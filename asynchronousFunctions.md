@@ -12,7 +12,10 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 - All code is run til completion by order of execution in call stack
 - The event queu is initially empty, as events occur, event handlers place new tasks onto the event queue.
 -     some examples ofthese events are mouse clicks, keyboard presses and timed events.
-
+- Tasks wait on the event queue til the call stack is empty.
+- Once empty, the first task in the queue is put on the stack.
+- The subsequent tasks wait until the call stack is empty again and the cycle repeats.
+- THIS CYCLE IS THE EVENT LOOP :BOOM:
 <kbd>the event queue</kbd>             
 ![](eventqu.png)
 
