@@ -22,5 +22,14 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 
 ![](eventqu.png)
 
+## How asynchronous functionsfit into the event loop?
+- when js runtime comes across an asynchronous function in the call stack, it does not process it immediately.
+- instead of blocking the call stack until it is finished, it allows another process to handle processing of the asynchronous function
+- When the other process has finished, it adds a task back on to the event queue.
+- This task is usually a CALLBACK function, passed in as one of the arguments, to the original asynchronous function.
 
+## But isn't Javascript single threaded?
+- The runtime is single threaded, but there are other processes running in a browser, such as timers, input handlers and Network request APIs that run in parallel with the event loop, by putting new tasks on to the event queue.
 
+<kbd>async functions in the event loop</kbd>     
+![](asyncFunloop.png)
