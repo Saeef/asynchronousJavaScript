@@ -13,7 +13,7 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 - The event queu is initially empty, as events occur, event handlers place new tasks onto the event queue.
 -     some examples ofthese events are mouse clicks, keyboard presses and timed events.
 
-<kbd>the event queu</kbd>             
+<kbd>the event queue</kbd>             
 ![](eventqu.png)
 
 
