@@ -18,7 +18,8 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 - THIS CYCLE IS THE EVENT LOOP   
 
 <br>
-<kbd>the event queue</kbd>             
+<kbd>the event queue</kbd>
+
 ![](eventqu.png)
 
 
