@@ -14,7 +14,7 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 -     some examples ofthese events are mouse clicks, keyboard presses and timed events.
 
 <kbd>the event queu</kbd>             
-![](eventq.png)
+![](eventqu.png)
 
 
 
