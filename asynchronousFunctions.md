@@ -1,4 +1,4 @@
-## Asynchronous functions
+## Asynchronous functions  :crossed_flags:  :crossed_flags:
 
 asynchronous programming keeps web applications responsive by allowing multiple tasks to be processed at the same time.
 
@@ -22,21 +22,21 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 
 ![](eventQ.png)
 
-## How asynchronous functionsfit into the event loop?
+## How asynchronous functions fit into the event loop?  :fork_and_knife:
 - when js runtime comes across an asynchronous function in the call stack, it does not process it immediately.
 - instead of blocking the call stack until it is finished, it allows another process to handle processing of the asynchronous function
 - When the other process has finished, it adds a task back on to the event queue.
 - This task is usually a CALLBACK function, passed in as one of the arguments, to the original asynchronous function.
 
-## But isn't Javascript single threaded?
+## But isn't Javascript single threaded?  :violin:
 - The runtime is single threaded, but there are other processes running in a browser, such as timers, input handlers and Network request APIs that run in parallel with the event loop, by putting new tasks on to the event queue.
 
 <kbd>async functions in the event loop</kbd>     
 ![](asyncFunloop.png)
 
-## why are async functions important?
+## why are async functions important?  :bulb:
 - They are important because some tasks, such as network request are slow, and so it allows for slow tasks to be operated on a separate thread to stop a task from blocking the browser.
 - Callbacks are used to specify what new tasks are sent back to the event queue once the other process has finished processing.
-... and that is the story of the Event Loop 
+... and that is the story of the Event Loop  :satisfied:  :beers:
 
 :100:
