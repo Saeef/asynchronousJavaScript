@@ -13,4 +13,4 @@ A modern approach to making asynchronous network requests
 New JS feature that allows you to pause and resume a function.
 
 
-![](asyncProg.png)
+![](/images/asyncProg.png)
