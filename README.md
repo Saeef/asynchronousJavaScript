@@ -11,3 +11,6 @@ A modern approach to making asynchronous network requests
 
 4. Generators  :boom:    
 New JS feature that allows you to pause and resume a function.
+
+
+![](asyncProg.png)
