@@ -20,7 +20,7 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 <br>
 <kbd>the event queue</kbd>
 
-![](eventqu.png)
+![](eventQ.png)
 
 ## How asynchronous functionsfit into the event loop?
 - when js runtime comes across an asynchronous function in the call stack, it does not process it immediately.
