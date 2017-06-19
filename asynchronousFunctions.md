@@ -37,4 +37,6 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 ## why are async functions important?
 - They are important because some tasks, such as network request are slow, and so it allows for slow tasks to be operated on a separate thread to stop a task from blocking the browser.
 - Callbacks are used to specify what new tasks are sent back to the event queue once the other process has finished processing.
-... and that is the story of the Event Loop :110:
+... and that is the story of the Event Loop 
+
+:100:
