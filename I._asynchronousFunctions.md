@@ -9,7 +9,7 @@ asynchronous programming keeps web applications responsive by allowing multiple 
 - The call stack is a segment of memory that keeps the browser queues up tasks
 - The event loop, is the process in which the browser queues up tasks
 - All code is run til completion by order of execution in call stack
-- The event queu is initially empty, as events occur, event handlers place new tasks onto the event queue.
+- The event queue is initially empty, as events occur, event handlers place new tasks onto the event queue.
 -     some examples ofthese events are mouse clicks, keyboard presses and timed events.
 - Tasks wait on the event queue til the call stack is empty.
 - Once empty, the first task in the queue is put on the stack.
