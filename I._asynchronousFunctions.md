@@ -1,5 +1,6 @@
 ## Asynchronous functions :cocktail: :cocktail:
-asynchronous programming keeps web applications responsive by allowing multiple tasks to be processed at the same time.
+Asynchronous programming keeps web applications responsive by allowing multiple tasks to be processed at the same time.
+It's about processing code on a separate thread and then handling the result once it is done.
 
 <kbd>the Event Loop</kbd>
 ![](/images/eventloop.png)
