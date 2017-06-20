@@ -1,6 +1,7 @@
 ## Asynchronous functions :cocktail: :cocktail:
 Asynchronous programming keeps web applications responsive by allowing multiple tasks to be processed at the same time.
-It's about processing code on a separate thread and then handling the result once it is done.
+It's about processing code on a separate thread and then handling the result once it is done.      
+In javascript is achieved by using Web APIs that process this code on separate threads. The Web APIs send their processed results back as tasks on the event queue. These tasks are defined by callback function passed into the Web APIs, allowing Javascript to achieve multi-threading in a single threaded run time.
 
 <kbd>the Event Loop</kbd>
 ![](/images/eventloop.png)
