@@ -40,8 +40,8 @@
     });
 ```
 
-<kbd>new Promise</kbd>        
-![](/images/pending.png)
+<kbd>new Promise</kbd>                 
+![](/images/pending.jpg)
 
 ## Resolve() :umbrella:
 - ___The resolve() function___ is used to ___change___ the ___status___ of the promise from pending to fullfilled.
