@@ -86,7 +86,7 @@ If another promise is passed in as an argument to resolve(), then the new promis
     var secondPromise = Promise.resolve('firstPromise');
 ```
 
-:100%:
+:100:
 
 
   
