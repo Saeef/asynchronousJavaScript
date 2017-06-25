@@ -1,9 +1,9 @@
 # Promises  :zap::zap::zap:
-- Promises are ___containers___ for values that are not yet available but may eventually become available
-- Promises are becoming the standard way to handle asynchronous functions in Javascript
-- You start off pending and eventually the promises become either fullfill or rejected.
+- Promises are ___containers___ for values that are not yet available but may ___eventually___ become available
+- Promises are becoming the ___standard___ way to handle ___asynchronous___ functions in Javascript
+- You start off pending and eventually the promises become either ___fullfill___ or ___rejected___.
 - Before promises, callbacks were commonly used to handle asynchronous results
-- Unlike callbacks, promises are very easy to chained together
+- Unlike callbacks, ___promises are very ___easy___ to ___chained___ together
 
 ## Creating a new Promise :umbrella:
 
@@ -27,7 +27,7 @@
 ```
 
 ## new Promise() :zap:
-- The new Promise() constructor is called to create a new promise.
+- The ___new Promise() constructor___ is called to create a ___new promise___.
 - The constructor takes in a callback function with the arguments ***resolve*** and ***reject***
 
 ```
@@ -37,8 +37,8 @@
 ```
 
 ## Resolve() :umbrella:
-- The resolve() function is used to change the status of the promise from pending to fullfilled.
-- The value that is passed inside the resolve() function becomes the fullfillment value of the promise.
+- ___The resolve() function___ is used to ___change___ the ___status___ of the promise from pending to fullfilled.
+- The ___value___ that is passed inside the resolve() function becomes the ___fullfillment___ value of the promise.
 - Once the resolve() function is called, future resolve() and reject() calls no longer have any effect.
 ex:
   the resolve() method used here to set the fulfillment value of the promise:
@@ -47,8 +47,8 @@ ex:
     resolve("Success!");      //Success is set as the fulfillment value of the promise
 ```
 ## Reject() :zap: :umbrella:
-- The reject() function is used to change the status of the promise from pending to rejected.
-- The value that is passed inside the reject() becomes the rejection value of the promise.
+- ___The reject() function___ is used to ___change___ the ___status___ of the promise from pending to rejected.
+- The ___value___ that is passed inside the reject() becomes the ___rejection___ value of the promise.
 - Once the reject function is called, future resolve() and reject() calls no longer have any effect.
 - The resolve function can take in any object as an argument, but one common practice is to pass in a ***Error*** object
   because it provides a more detailed error report.
@@ -63,7 +63,7 @@ ex:
 ### Promise.resolve() and Promise.reject()  :zap: :umbrella:
 - Promise.resolve() is used to return a promise that is already fulfilled.
 - Promise.reject() use to return a promise already rejected
-- Both of these methods can be called outside of the new Promise() constructor.
+- ___Both___ of these methods can be ___called outside___ of the new Promise() ___constructor___.
 
 #### Promise.resolve()  :umbrella:
 
@@ -78,7 +78,7 @@ ex:
 ```
 
 #### Resolving another Promise  :umbrella:
-If another promise is passed in as an argument to resolve(), then the new promise takes the fulfillment value of the passed in Promise.
+If __another promise is passed__ in as an argument to resolve(), __then__ the __new promise__ takes the fulfillment __value__ of the __passed__ in Promise.
 
 ```
     var firstPromise = Promise.resolve('already resolved');
