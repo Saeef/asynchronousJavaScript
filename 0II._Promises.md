@@ -1,5 +1,5 @@
 # Promises  :zap::zap::zap:
-- Promises are containers for values that are not yet available but may eventually become available
+- Promises are _containers_ for values that are not yet available but may eventually become available
 - Promises are becoming the standard way to handle asynchronous functions in Javascript
 - You start off pending and eventually the promises become either fullfill or rejected.
 - Before promises, callbacks were commonly used to handle asynchronous results
