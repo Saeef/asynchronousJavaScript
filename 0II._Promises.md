@@ -3,7 +3,7 @@
 - Promises are becoming the ___standard___ way to handle ___asynchronous___ functions in Javascript
 - You start off pending and eventually the promises become either ___fullfill___ or ___rejected___.
 - Before promises, callbacks were commonly used to handle asynchronous results
-- Unlike callbacks, ___promises are very ___easy___ to ___chained___ together
+- Unlike callbacks, __promises__ are very __easy__ to __chained__ together
 
 ## Creating a new Promise :umbrella:
 
