@@ -40,6 +40,9 @@
     });
 ```
 
+<kbd>new Promise</kbd>        
+![](/images/pending.png)
+
 ## Resolve() :umbrella:
 - ___The resolve() function___ is used to ___change___ the ___status___ of the promise from pending to fullfilled.
 - The ___value___ that is passed inside the resolve() function becomes the ___fullfillment___ value of the promise.
