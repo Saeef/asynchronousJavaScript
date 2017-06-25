@@ -5,6 +5,8 @@
 - Before promises, callbacks were commonly used to handle asynchronous results
 - Unlike callbacks, promises are very easy to chained together
 
+## Creating a new Promise
+
 ```
     var promise = new Promise(function(resolve, reject) {
         
