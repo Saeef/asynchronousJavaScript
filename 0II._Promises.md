@@ -5,6 +5,10 @@
 - Before promises, callbacks were commonly used to handle asynchronous results
 - Unlike callbacks, __promises__ are very __easy__ to __chained__ together
 
+
+<kbd>jsPromise</kbd>        
+![](/images/jsPromise.png)
+
 ## Creating a new Promise :umbrella:
 
 ```
