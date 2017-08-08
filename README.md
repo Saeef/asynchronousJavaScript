@@ -1,4 +1,4 @@
-# asynchronous Programming JS  :rocket:
+# asynchronous JavaScript  :rocket:     (part of all-JS repository)
 
 1. Asynchronous functions  :boom:  
 How asynchronous functions, callbacks and events fit together to allow multi-threading in a single threaded run time.
