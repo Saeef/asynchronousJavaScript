@@ -1,4 +1,4 @@
-# asynchronous JavaScript  :rocket:     <kbd>(part of 'all-JS' :notebook: repository)</kbd>  :checkered_flag:
+# asynchronous JavaScript  :checkered_flag:    <kbd>(part of 'all-JS' :notebook: repository)</kbd>  :checkered_flag:
 
 1. Asynchronous functions  :boom:  
 How asynchronous functions, callbacks and events fit together to allow multi-threading in a single threaded run time.
